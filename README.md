@@ -1,5 +1,5 @@
 Clone the Repository:
-git clone <Project url>
+git clone "Project Url"
 
 Then run: 
 npm install 
