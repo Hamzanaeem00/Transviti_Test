@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import CustomButton from "./CustomButton";
 import searchIcon from "../assets/WhiteSearchIcon.svg";
 import { Tags } from "../utils";
@@ -6,8 +6,8 @@ import { Tags } from "../utils";
 const JobSearchSection = () => {
   return (
     <>
-     {/* Main Heading */}
-     <div className="">
+      {/* Main Heading */}
+      <div className="">
         <h1 className="text-xl font-bold text-gray-800 text-2xl">
           Find your Dream Job, <span className="text-primary">Albert!</span>
         </h1>
@@ -66,7 +66,7 @@ const JobSearchSection = () => {
       {/* Add Border  */}
       <div className="border-b-1 border-gray-200 mt-5"></div>
     </>
-  )
-}
+  );
+};
 
-export default JobSearchSection
+export default JobSearchSection;
