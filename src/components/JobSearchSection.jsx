@@ -1,7 +1,7 @@
 import React from "react";
 import CustomButton from "./CustomButton";
 import searchIcon from "../assets/WhiteSearchIcon.svg";
-import { Tags } from "../utils";
+import SimliarTags from "./SimilarTags";
 
 const JobSearchSection = () => {
   return (
@@ -50,18 +50,7 @@ const JobSearchSection = () => {
         </div>
       </div>
 
-      {/* All Tags */}
-      <div className="mt-4">
-        <span className="text-sm text-gray-600 mr-2">Similar:</span>
-        {Tags.map((tag, i) => (
-          <button
-            key={i}
-            className="px-3 py-2 border border-gray-300 text-sm rounded text-gray-500 mr-2 hover:bg-gray-100"
-          >
-            {tag}
-          </button>
-        ))}
-      </div>
+    <SimliarTags />
 
       {/* Add Border  */}
       <div className="border-b-1 border-gray-200 mt-5"></div>
