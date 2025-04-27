@@ -95,6 +95,7 @@ export function NavbarHeader() {
     </ul>
   );
 
+  
   return (
     <Navbar className="text-black bg-white px-4 py-2 lg:px-8 lg:py-4 border-0 rounded-xs">
       <div className="container mx-auto">
