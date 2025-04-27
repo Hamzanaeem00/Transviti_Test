@@ -112,9 +112,9 @@ export function NavbarHeader() {
                 placeholder="Search"
                 containerProps={{
                   className:
-                    "  min-w-[255px] text-black h-11 bg-search rounded-xl ",
+                    "  min-w-[255px] text-black h-11 bg-search rounded-xl  ",
                 }}
-                className=" border-0  !border-t-blue-gray-300 h-11 pl-9 placeholder:text-blue-gray-300 focus:!border-blue-gray-300"
+                className=" border-0  h-11 pl-9 placeholder:text-blue-gray-300  rounded-2xl  focus-visible:outline-blue-400 focus:ring-blue-400 focus-ring-2"
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
